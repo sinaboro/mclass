@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven 3.9.11' // Ensure Maven is installed and configured in Jenkins        
+        maven 'maven 3.9.11' // Ensure Maven is installed and configured in Jenkins        
     }
 
     environment {
