@@ -35,7 +35,7 @@ pipeline {
         stage('Prepare Jar') {
             steps {
                 echo 'Prepare Jar...'
-                sh 'cp target/demo.0.0.1-SNAPSHOT.jar ${JAR_FILE_NAME}'
+                sh 'cp target/demo-0.0.1-SNAPSHOT.jar ${JAR_FILE_NAME}'
             }
         } 
 
